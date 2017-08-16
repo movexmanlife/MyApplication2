@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+
+    <!-- 标题背景颜色 -->
+    <color name="colorPrimary">#ff3333</color>
+    <!-- 标题字体颜色 -->
+    <color name="textColorPrimary">#ffffff</color>
+    <!-- 通知栏背景颜色 -->
+    <color name="colorPrimaryDark">#ff3333</color>
+    <!-- 各控制元件(如：EditText光标、check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色 -->
+    <color name="colorAccent">#ff3333</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+</resources>

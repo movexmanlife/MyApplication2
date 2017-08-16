@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置沉浸式状态栏背景颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--设置各控制元件(如：EditText光标、check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- toolBar背景颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 标题字体颜色-->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <!-- toolBar高度-->
+        <item name="actionBarSize">@dimen/title_height</item>
+        <!-- 设置输入框不被软键盘遮挡-->
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="MyTheme">
+        <!-- float_box为我们定义的窗口背景 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="AnimationActivity" mce_bogus="1" parent="@style/Theme.AppCompat.Light">
+        <item name="android:activityOpenEnterAnimation">@anim/scale_out</item>
+        <item name="android:activityOpenExitAnimation">@anim/scale_in</item>
+        <item name="android:activityCloseEnterAnimation">@anim/scale_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/scale_in</item>
+    </style>
+
+    <style name="MyDialogTopRight">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Anim_scale</item>
+    </style>
+    <style parent="@android:style/Animation.Activity" name="Anim_scale">
+        <item name="android:activityOpenEnterAnimation">@anim/scale_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/scale_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/scale_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/scale_out</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_slideAnimTime">300</integer>
+    <!-- 首页的立即投资按钮文字大小 -->
+    <integer name="homepage_goto_buy_text_size">18</integer>
+    <integer name="homepage_remain_sum_text_size">12</integer>
+</resources>
